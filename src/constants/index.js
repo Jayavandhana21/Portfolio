@@ -79,8 +79,8 @@ export const PROJECTS = [
     description:
       "The Portfolio project is a personal website built to showcase my skills, projects, and experience as a front-end developer. Designed with a clean and responsive layout, it highlights my work through interactive sections and smooth navigation, providing an engaging user experience across devices. This project demonstrates my ability to create visually appealing, functional web applications using modern front-end technologies.",
     technologies: ["HTML", "Tailwind Css", "React","Vite","Javascript"],
-    github : "https://github.com/Jayavandhana21/React-Portfolio",
-    live : "https://jayavandhana21.github.io/React-Portfolio/" 
+    github : "https://github.com/Jayavandhana21/Portfolio",
+    live : "https://jayavandhana21.github.io/Portfolio/" 
   },
   // {
   //   title: "e-Dine",
