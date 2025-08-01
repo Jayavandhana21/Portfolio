@@ -1,24 +1,3 @@
-// import { Link } from 'react-router-dom';
-// import { Menu, X } from 'lucide-react';
-
-// const Navbar = () => {
-//   // const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-//   return (
-//     <div className="w-full">
-//       {/* Main Navigation */}
-//       <nav className='w-full flex items-center justify-between py-5 bg-black bg-opacity-95 border-b-2 outline-4 border-gray-500 backdrop-blur-sm'>
-//         <div className='flex flex-shrink-0 items-center'>
-//           <h2 className='text-white mx-1 text-2xl font-bold'>Jayavandhana</h2>
-//         </div>
-//         </nav>
-//     </div>
-//   );
-// };
-
-// export default Navbar;
-
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -33,7 +12,6 @@ const Navbar = () => {
           <h2 className="text-white mx-1 text-2xl font-bold">Jayavandhana</h2>
         </div>
 
-        {/* Hamburger / close icon: visible below lg, hidden on lg+ */}
         <div className="lg:hidden">
           <button
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -44,7 +22,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Example desktop links (shown on lg+) */}
+        
         <div className="hidden lg:flex gap-6">
           <Link to="/" className="text-white hover:underline">
             Home
@@ -55,19 +33,19 @@ const Navbar = () => {
           <Link to="/projects" className="text-white hover:underline">
             Projects
           </Link>
-          <Link to="/projects" className="text-white hover:underline">
+          <Link to="/education" className="text-white hover:underline">
             Education
           </Link>
-          <Link to="/projects" className="text-white hover:underline">
+          <Link to="/experience" className="text-white hover:underline">
             Experience
           </Link>
-          <Link to="/projects" className="text-white hover:underline">
+          <Link to="/contact" className="text-white hover:underline">
             Contact
           </Link>
         </div>
       </nav>
 
-      {/* Mobile menu panel (example, toggleable) */}
+     
       {isMenuOpen && (
         <div className="lg:hidden bg-black bg-opacity-90 border-b border-gray-600">
           <div className="flex flex-col px-4 py-3 gap-2">
